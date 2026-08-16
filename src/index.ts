@@ -33,7 +33,7 @@ async function main() {
   });
 
   // Initialize components
-  const voiceManager = new VoiceManager(logger);
+  const voiceManager = new VoiceManager(logger, { selfDeaf: false });
   const audioProcessor = new AudioProcessor(
     {
       sampleRate: 16000, // Gemini API expects 16kHz mono
