@@ -7,7 +7,7 @@
 A powerful Discord bot that provides seamless real-time voice translation using advanced AI (Google Gemini API). Join any voice channel and experience automatic speech translation across 50+ languages, making global communication effortless.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-22.23.4%2B%20%7C%2024.22.1%2B-green.svg)](https://nodejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.6+-blue.svg)](https://www.typescriptlang.org/)
 [![Discord.js](https://img.shields.io/badge/Discord.js-14+-blue.svg)](https://discord.js.org/)
 
@@ -136,7 +136,7 @@ Perfect for various scenarios:
 
 ## 📋 Prerequisites
 
-- Node.js 18 or higher
+- Node.js 24.22.1 or later (or 22.23.4+ / 26.12.1+ — earlier releases are affected by the October 2026 Node.js security advisories)
 - Discord Bot Token
 - Google Gemini API Key
 
